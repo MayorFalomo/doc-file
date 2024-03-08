@@ -84,6 +84,7 @@ body{
     right: 50%;
     margin: 0 auto;
     width: 100%;
+    font-size: 10px;
 }
 
 .App .second-section .recorders-use .checkboxContainer{
