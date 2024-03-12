@@ -79,12 +79,11 @@ body{
 }
 .App .second-section .recorders-use .recordersUse{
     position: absolute;
-    top: -20px;
+    top: -25px;
     left: 50%;
     right: 50%;
     margin: 0 auto;
     width: 100%;
-    font-size: 10px;
 }
 
 .App .second-section .recorders-use .checkboxContainer{
@@ -157,6 +156,12 @@ width: 45%;
      text-decoration: underline;
     padding-top: 3px;
     background-color: #F1F4FD;
+ 
+}
+.App .claimant-section .claimant .claimantTexts p{
+      width: 200px;
+    border-bottom: 2px #000 solid;
+    margin-top: 3px;
 }
 
 .App footer{
@@ -173,17 +178,27 @@ width: 45%;
 .App footer .dated-footer{
     display: flex !important;
     align-items: flex-start !important;
+    justify-content: space-between;
+    gap: 30px;
     margin: 20px auto;
 }
 .App footer .dated-footer .dated{
-    width: 45%;
+    /* width: 45%; */
 }
 .App footer .dated-footer .signature{
-    width: 55%;
+    /* width: 55%; */
     display: flex;
     flex-direction: column;
-
+    
 }
+.App footer .dated-footer .signature span{
+    width: 200px;
+   border-bottom: 2px #000 solid;
+}
+.App footer .dated-footer .signature p{
+   text-align: center;
+}
+
 .App footer .dated-footer span{
      text-decoration: underline;
     padding-top: 3px;
@@ -281,13 +296,4 @@ width: 45%;
    .App footer span{
     font-size: 13px;
    }
-   .App .second-section .recorders-use .recordersUse{
-    position: absolute;
-    top: -20px;
-    left: 54% !important;
-    right: 50%;
-    margin: 0 auto;
-    width: 100%;
-    font-size: 10px;
-}
     }
